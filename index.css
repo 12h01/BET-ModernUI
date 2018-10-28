@@ -1,0 +1,151 @@
+/* Here's the changes I've made to original Royalbets CSS.
+If you're porting the code to another betting site, you can still
+use this codes, but changing classes and IDs to yours.
+
+Royalbets ModernUI v1.0
+Created by João Pedro
+12h01.github.io
+twitter.com/12h01
+
+Sources:
+Dribbble's bouncing ball loading gif: https://cdn.dribbble.com/users/494229/screenshots/1601132/loadingicon14.gif
+W3CSS (see index.js)
+Toastrjs (see index.js)
+*/
+
+#divProcessando {
+    background: url("https://cdn.dribbble.com/users/494229/screenshots/1601132/loadingicon14.gif") no-repeat center;
+    position: fixed;
+    background-color: white;
+    opacity: 1;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+div#content{
+  border: 1px solid;
+}
+a#lnkSair{
+  color:white;
+  border:none;
+  font-size:inherit;
+}
+.body2{
+  width:96%;
+  margin-bottom:32px;
+}
+.modalWindow2{
+  width:55%;
+  border: 1px solid #333;
+  background: #fff;
+  z-index: 99;
+  padding:32px;
+}
+.toast {
+    opacity: 1 !important;
+}
+tr.tabelaBilheteTitulo td{
+  background:white;
+  color:blue;
+}
+table.tabelaBilhete tr td{
+  background:white;
+  padding:8px;
+}
+#id01{
+  text-align:center;
+}
+table.tabelaBilhete{
+  margin-top:-50px;
+  width:100%;
+}
+tr.subtitulotabela td{
+  background:white;
+  font-style:normal;
+  font-weight:bold;
+  border-bottom:1px solid orange;
+}
+tr.tabelaLinhaImpar2 td,tr.tabelaLinhaPar2 td{
+  text-align:center;
+  background:white;
+  padding:8px;
+  font-size:1.1em;
+}
+ul#header{
+  margin-top:-50px;
+}
+body,html{
+  background:#FF6701!important;
+}
+*{
+  font-family:"Didact Gothic";
+}
+ul#header li:hover{
+  background:none;
+}
+ul#header,.butao{
+  font-size:0.75em;
+  background:#373a3c;
+  border:1px solid black;
+}
+div.body2{
+  background:none;
+}
+.btnbilhete {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+.CenterColumn{
+  width:100%;
+  background:white;
+}
+tr#header{
+  color:black!important;
+  text-align:center;
+  background:transparent;
+}
+td{
+  width:auto;
+}
+div.LeftColumn{
+  width:100%;
+  height:auto;
+}
+/*
+ul#header li:hover,tr.tabelaLinhaImpar2,ul#header,div#content,tr#header{
+  background:transparent;
+}
+button#lbSaldoUser{
+  color:black;
+}
+div.LeftColumn{
+  width:80%;
+  color:black;
+  text-transform:uppercase;
+  height:auto;
+}
+tr.subtitulotabela{
+  background:transparent;
+  padding:2px;
+  font-size:100%;
+  color:blue;
+}
+div.CenterColumn{
+  width:20%;
+  color:black;
+}
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+td{
+  width:auto;
+  height:auto;
+}
+tr{width:auto;
+  height:auto;}
+*/
